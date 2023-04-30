@@ -1,0 +1,257 @@
+.element {
+	width:100px;
+	height:100px;
+/* 	border:2px solid gray;
+ */	
+	background-color:lightblue;
+  transform: matrix(0.866,0.7,-0.8,0.866,0,0);
+  margin-left:200px;
+}
+
+h2{
+	margin-top:200px;	
+}
+
+.translate{
+	width:100px;
+	height:100px;
+	background-color:#00800033;
+	margin-top:50px;	
+}
+.translate:hover{
+	transform:translate(50px,100px);
+}
+
+
+.box{
+	width:100px;
+	height:100px;
+	background-color:#00800033;
+}
+.box:hover{
+  transform: translateX(50px);
+}
+
+.box_1{
+	width:100px;
+	height:100px;
+	background-color:#00800033;
+}
+.box_1:hover{
+  transform: translateY(50px);
+}
+
+/* scale section starts */
+.scale{
+	margin:20px 20px;
+	border:2px solid red;
+	width:60%;
+	background-color:yellow;
+}
+.scale:hover{
+	transform:scale(2);
+}
+.scalex{
+	margin:20px 20px;
+	border:2px solid red;
+	width:60%;
+	background-color:yellow;
+}
+.scalex:hover{
+	transform:scalex(2);
+}
+.scaley{
+	margin:20px 20px;
+	border:2px solid red;
+	width:60%;
+	background-color:yellow;
+}
+.scaley:hover{
+	transform:scaley(2);
+}
+/* scale section ends */
+
+
+.rotate{
+	margin-left:40px;
+	width:100px;
+	height:100px;
+	background-color:#a52a2aa6;
+	border:1px solid black;
+
+}
+.rotate:hover{
+	transform:rotate(30deg);
+}
+
+
+/* skew section starts */
+.skew
+   {
+	margin:20px 20px;
+	border:2px solid green;
+	width:60%;
+	background-color:#ff00005c;}
+	
+.skew:hover
+    {
+		transform:skew(20deg,30deg);
+	}
+	
+.skewx
+   {
+	margin:20px 20px;
+	border:2px solid green;
+	width:60%;
+	background-color:#ff00005c;}
+	
+.skewx:hover
+    {
+		transform:skewx(20deg);
+	}
+	.skewy
+   {
+	margin:20px 20px;
+	border:2px solid green;
+	width:60%;
+	background-color:#ff00005c;}
+	
+.skewy:hover
+    {
+		transform:skewy(40deg);
+	}
+
+
+/* skew section ends */
+
+.heading{
+	text-align:center;
+}
+
+
+/* transition section starts */
+
+.transition{
+	width:100px;
+	height:100px;
+	background-color:orange;
+}
+.transition:hover{
+	width:300px;
+	height:500px;
+	transition:width 2s,height 3s;
+}
+
+/* transition section ends */
+
+/* transition delay section starts */
+.delay{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	transition-delay:2s;
+}
+.delay:hover{
+	width:300px;
+	
+}
+/* transition delay section ends */
+
+/* transition duration section starts */
+.duration{
+	width:100px;
+	height:100px;
+	background-color:gray;
+	transition-duration:5s;
+}
+.duration:hover{
+	width:300px;
+	
+}
+/* transition duration section ends */
+
+/* transition duration section ends */
+
+.property{
+	width:100px;
+	height:100px;
+	background-color:purple;
+	transition-property:width;
+	transition-duration:3s;
+}
+.property:hover{
+	width:300px;
+	
+}
+
+
+/* SHORTHAND */
+.shorthand{
+	width:100px;
+	height:100px;
+	background-color:purple;
+	transition:width 5s ease-out 3s;
+}
+.shorthand:hover{
+	width:300px;
+	
+}
+
+
+.box_2{
+	width:100px;
+	height:100px;
+	background-color: red;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.box_2:hover{
+	background-color: blue;
+}
+
+.box_3{
+	width:100px;
+	height:100px;
+	background-color: red;
+  transition-duration: 1s;
+  transition-timing-function:ease;
+}
+.box_3:hover{
+	background-color: blue;
+}
+
+.box_4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: all 1s ease-in;
+}
+
+.box_4:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.box_5{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+    transition: all 0.3s ease-out;
+}
+
+.box_5:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.box_6{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.box_6:hover {
+  width: 200px;
+  height: 200px;
+}
